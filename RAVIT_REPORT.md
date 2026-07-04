@@ -9,7 +9,7 @@
 ---
 
 ## 1. Problem framing
-##Business question (one short paragraph):
+Business question (one short paragraph):
 The time frame presented in "Olist_orders_dataset" file is 04/10/2016 (first order) until 29/08/2018.
 I would like to predict the orders placed beyond 29/08/2018. In fact, I would like to supply the 
 Purchasing department the full forcast a year ahead, i.e. until 29/08/2019.
@@ -18,20 +18,35 @@ Target definition:
 Orders Forecast a year ahead - 29/08/18 to 29/08/2019
 **Primary metric and why it fits the business cost** (cost of a false positive vs a
 false negative; for forecasting, cost of over- vs under-forecasting):
+The primary metric examined was the Mean Squered Error (MSE) due to it's simplicity to evaluate whether the business question was answered or not.
+
 
 ---
 
 ## 2. Results table
 Fill in every model **and the dumb baseline** on the locked test set.
 
-| Model | Primary metric | Secondary metric | Notes |
+| Model | Primary metric(MSE) | Secondary metric | Notes |
 |---|---|---|---|
-| baseline | | | dumb model |
-| linear | | | |
-| bagging | | | |
-| boosting | | | |
-
+| baseline |23.76 | | dumb model |
+| linear | | |was not implemented |
+| bagging | | |was not implemented |
+| boosting | 32.75| | XGBOOST|
+| boosting | 28.97| | XGBOOST with Early Stopping|
 ---
+At this point I have stopped the investogation and re-challange the business question again. 
+Due to the fact that time series are involved, and the model was well trained, however, did not maintained
+simplicity. There was a need to change the business question from "Orders Forecast a year ahead" to "The change in orders (Delta) a year ahead"  
+
+After the business question was altered and additional fileds were addedd to the main table. the 
+following models were conducted and established:
+
+| Model | Primary metric(MSE) | Secondary metric | Notes |
+|---|---|---|---|
+| baseline |23.76 | | dumb model |
+| bagging |19.45 | |Random Forest |
+| boosting | 19.30| | XGBOOST with Early Stopping|
+| Hybrid | 18.70| | XGBoost + Random Forest|
 
 ## 3. Guiding questions (graded)
 Answer each in 2-5 sentences.
