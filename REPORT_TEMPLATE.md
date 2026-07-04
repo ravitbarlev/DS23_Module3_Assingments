@@ -10,9 +10,12 @@
 
 ## 1. Problem framing
 Business question (one short paragraph):
+The time frame presented in "Olist_orders_dataset" file is 04/10/2016 (first order) until 17/10/2018.
+I would like to predict the orders placed beyond 17/10/2018. In fact, I would like to supply the 
+Purchasing department the full forcast a year ahead, i.e. until 17/10/2019.
 
 Target definition:
-
+number of orders placed startimg from 17/10/2018 to 17/10/2019
 **Primary metric and why it fits the business cost** (cost of a false positive vs a
 false negative; for forecasting, cost of over- vs under-forecasting):
 
