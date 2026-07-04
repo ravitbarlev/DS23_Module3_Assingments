@@ -28,11 +28,11 @@ Fill in every model **and the dumb baseline** on the locked test set.
 
 | Model | Primary metric(MSE) | Secondary metric | Notes |
 |---|---|---|---|
-| baseline |23.76 | | dumb model |
-| linear | | |was not implemented |
-| bagging | | |was not implemented |
-| boosting | 32.75| | XGBOOST|
-| boosting | 28.97| | XGBOOST with Early Stopping|
+| baseline |23.76 |NA | dumb model |
+| linear | |NA |was not implemented |
+| bagging | |NA |was not implemented |
+| boosting | 32.75|NA | XGBOOST|
+| boosting | 28.97|NA | XGBOOST with Early Stopping|
 ---
 At this point I have stopped the investogation and re-challange the business question again. 
 Due to the fact that time series are involved, and the model was well trained, however, did not maintained
@@ -43,10 +43,10 @@ following models were conducted and established:
 
 | Model | Primary metric(MSE) | Secondary metric | Notes |
 |---|---|---|---|
-| baseline |23.76 | | dumb model |
-| bagging |19.45 | |Random Forest |
-| boosting | 19.30| | XGBOOST with Early Stopping|
-| Hybrid | 18.70| | XGBoost + Random Forest|
+| baseline |23.76 |dumb model|
+| bagging |19.45 |Random Forest|
+| boosting | 19.30|XGBoost with Early Stopping|
+| Hybrid | 18.70|XGBoost + Random Forest|
 
 ## 3. Guiding questions (graded)
 Answer each in 2-5 sentences.
