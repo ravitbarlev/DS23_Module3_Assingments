@@ -9,7 +9,7 @@
 ---
 
 ## 1. Problem framing
-Business question (one short paragraph):
+##Business question (one short paragraph):
 The time frame presented in "Olist_orders_dataset" file is 04/10/2016 (first order) until 29/08/2018.
 I would like to predict the orders placed beyond 29/08/2018. In fact, I would like to supply the 
 Purchasing department the full forcast a year ahead, i.e. until 29/08/2019.
