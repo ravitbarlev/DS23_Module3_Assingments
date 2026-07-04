@@ -1,7 +1,7 @@
 # REPORT — Module 3 · Assignment 1 · Supervised Learning
 
-**Name:** ___  **ID:** ___  **Date:** ___
-**Chosen task:** ___ (A · Olist negative review / B · Telco churn / C · Olist daily volume forecast)
+**Name:** RAVIT BAR-LEV  **ID:** 029290400  **Date:** 04/07/2026
+**Chosen task:** C (A · Olist negative review / B · Telco churn / C · Olist daily volume forecast)
 
 > Keep this report in English. Be concise and honest. "I don't know, and here is why"
 > is a professional answer. Empty confidence is not.
