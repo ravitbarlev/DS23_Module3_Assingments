@@ -213,7 +213,7 @@ If this model went live today, I will need to monitor three critical layers: Dat
 
 ---
 
-## 11. Reflection
+## 7. Reflection
 What surprised you? What would you do differently with two more weeks or more data?
 How would this approach change if it were part of your mid-term project?
 Answer:
